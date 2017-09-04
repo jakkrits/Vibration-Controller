@@ -1,0 +1,13 @@
+use_frameworks!
+pod 'SparkSetup'
+pod 'Spark-SDK'
+pod 'SwiftyJSON'
+pod 'GoogleMaps'
+plugin 'cocoapods-keys', {
+  :project => "VibrationController",
+  :keys => [
+    "OAuthClientId",
+    "OAuthSecret",
+    "particleUserName",
+    "particlePassword"
+  ]}
